@@ -18,7 +18,11 @@ const Title=styled.div`
     align-items: center;
     width: 80%;
     color: blueviolet;
+    font-size: 18px ;
     padding: 0px 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+    }
 `
 
 const IconTray=styled.div`
@@ -58,8 +62,8 @@ const Footer = () => {
         <Title>Avinash Pandey 2023(c) All rights reserved.</Title>
         <IconTray>
         <IconBar>
-            <a href="https://linkedin.com"><Linkedin src={Linked}/></a>
-            <a href="https://instagram.com"><Instagram src={Insta}/></a>
+            <a href="https://linkedin.com/in/avinashatwork"><Linkedin src={Linked}/></a>
+            <a href="https://instagram.com/ii_avinaash_ii"><Instagram src={Insta}/></a>
         </IconBar>
         </IconTray>
        </FooterContainer>

@@ -135,7 +135,7 @@ margin-top: 20px;
 }
 `
 
-const Cta=styled.div`
+const Cta=styled.a`
 display: flex;
 width: 12.3125rem;
 height: 3.3125rem;
@@ -149,6 +149,7 @@ font-size: 2rem;
 color: #CB16F8;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
+text-decoration: none;
 &:hover{
     background-color: #CB16F8;
     opacity: 0.9;
@@ -169,8 +170,8 @@ const Image=styled.img`
     transition: all 0.5s ease;
     
     @media screen and (max-width: 768px) {
-     height:100%;
-     width: 100%;
+     height:70%;
+     width: 70%;
      border-radius:100% 51% 100% 69% / 100% 100% 50% 80% ;
      margin-bottom: 100px;
     }
@@ -191,7 +192,7 @@ const HeroSection = () => {
                         and try to explore these areas through my daily learnings 
                         and implementations. 
                         You can see my current learnings on my Github, provided below.</Subtitle>
-                    <Cta>Github.</Cta>
+                    <Cta href='https://github.com/devxap'>Github.</Cta>
                 </InnerLeftContainer>
                 <InnerRightContainer>
                    
